@@ -2,11 +2,13 @@ apiVersion: v1
 kind: Service
 metadata:
   name: emailservice
+  annotations:
+    configmanagement.gke.io/cluster-selector: selector-europe
 spec:
   type: ClusterIP
   selector:
     app: emailservice
   ports:
-  - name: grpc
-    port: 5000
-    targetPort: 8080
+    - name: grpc
+      port: 5000
+      targetPort: 8080
