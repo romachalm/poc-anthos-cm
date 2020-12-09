@@ -11,3 +11,13 @@ spec:
   parameters:
     labels:
       - key: "geo"
+  excludedNamespaces:
+    - istio-system
+    - asm-system
+    - config-management-system
+    - gatekeeper-system
+    - gke-connect
+    - kube-node-lease
+    - kube-public
+    - kube-system
+    - resource-group-system
