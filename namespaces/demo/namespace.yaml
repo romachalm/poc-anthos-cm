@@ -4,3 +4,4 @@ metadata:
   name: demo
   labels:
     istio.io/rev: asm-173-6
+    toto: ttata

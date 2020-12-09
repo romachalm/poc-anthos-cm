@@ -3,14 +3,13 @@ kind: K8sRequiredLabels
 metadata:
   name: ns-must-have-geo-label
 spec:
-  enforcementAction: dryrun
   match:
     kinds:
       - apiGroups: [""]
         kinds: ["Namespace"]
   parameters:
     labels:
-      - key: "geo"
+      - key: toto
   excludedNamespaces:
     - istio-system
     - asm-system
