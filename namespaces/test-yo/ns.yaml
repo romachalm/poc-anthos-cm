@@ -2,5 +2,7 @@ apiVersion: v1
 kind: Namespace
 metadata:
   name: test-yo
+  annotations:
+    configmanagement.gke.io/cluster-selector: selector-europe
   labels:
     istio.io/rev: asm-173-6
