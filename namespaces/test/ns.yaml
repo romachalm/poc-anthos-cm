@@ -6,3 +6,4 @@ metadata:
     configmanagement.gke.io/cluster-selector: selector-europe
   labels:
     istio.io/rev: asm-173-6
+    toto: tata
