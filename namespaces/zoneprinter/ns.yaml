@@ -4,3 +4,4 @@ metadata:
   name: zoneprinter
   labels:
     toto: a
+    istio.io/rev: asm-173-6
