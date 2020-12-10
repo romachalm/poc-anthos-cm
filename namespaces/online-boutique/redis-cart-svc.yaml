@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: redis-cart
   annotations: 
-    configmanagement.gke.io/namespace-selector: europe-selector
+    configmanagement.gke.io/cluster-selector: europe-selector
 spec:
   type: ClusterIP
   selector:
